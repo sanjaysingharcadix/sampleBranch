@@ -22,7 +22,7 @@ struct MacAppApp: App {
 
 func applicationDidFinishLaunching(_ aNotification: Notification) {
     // Start App Center
-    AppCenter.start(withAppSecret: "<APP SECRET HERE>", services: [
+    AppCenter.start(withAppSecret: "9ef8efca-f926-4422-aa50-aefb02f6832b", services: [
       Analytics.self,
       Crashes.self,
     ])
